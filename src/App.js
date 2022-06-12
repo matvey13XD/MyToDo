@@ -28,6 +28,8 @@ function App() {
         <Route path={"/list/:id"}>
           <ListPage/>
           </Route>
+        <Redirect to={"/home"}>
+          </Redirect>
       </Switch>
       </BrowserRouter>
     </div>
